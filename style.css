@@ -1,0 +1,553 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: sans-serif;
+}
+
+.body-1 {
+  height: 700px;
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay-1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(20, 15, 15, 0.543);
+  position: absolute;
+}
+
+.nav {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav h4 {
+  margin-left: 5vw;
+  font-weight: 350;
+}
+
+.nav i {
+  margin-right: 5vw;
+  font-weight: 350;
+}
+
+.body h6 {
+  position: absolute;
+  top: 38%;
+  left: 5%;
+  font-weight: 340;
+}
+
+.body p {
+  position: absolute;
+  top: 37%;
+  left: 5%;
+  font-size: 50px;
+  font-weight: 540;
+}
+
+#button {
+  top: 64%;
+  left: 5%;
+  position: absolute;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11.6px;
+  cursor: pointer;
+  background: transparent;
+  border: 1.8px solid white;
+}
+
+#button:hover {
+  background-color: black;
+}
+
+.body-2 {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  color: black;
+  font-family: sans-serif;
+}
+
+.box-1 {
+  height: 45vw;
+  width: 60%;
+  display: flex;
+  align-items: row;
+  /* background-color: blueviolet; */
+}
+
+.box-2 {
+  height: 45vw;
+  width: 40%;
+}
+
+.img-box1 {
+  height: 35vw;
+  width: 36%;
+  /* background-color: blue; */
+  background-image: url(https://images.pexels.com/photos/7287440/pexels-photo-7287440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 4vw;
+  margin-left: 5vw;
+  margin-right: 4vw;
+  margin-bottom: 2vw;
+}
+
+.img-box2 {
+  height: 34vw;
+  width: 37%;
+  /* background-color: rgb(17, 212, 62); */
+  background-image: url(https://annuaire-de-provence.com/wp-content/uploads/2018/12/Architecture-As-Therapy.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 8vw;
+  margin-left: 1vw;
+  margin-right: 5vw;
+  margin-bottom: 3vw;
+}
+
+#lvl-1 {
+  padding-top: 9vw;
+}
+
+#lvl-1 h5 {
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 2vw;
+  /* margin-right: 95px; */
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 550;
+  margin-bottom: 3vw;
+}
+
+p {
+  font-size: 12px;
+  margin-top: 3vw;
+  margin-right: 6vw;
+  font-weight: 550;
+}
+
+#p1 {
+  font-size: 18px;
+  margin-top: 2vw;
+  font-weight: 400;
+}
+
+#btn {
+  border: none;
+  color: rgb(39, 31, 31);
+  padding: 8px 16px;
+  font-weight: 550;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+  border: 1.5px solid rgb(39, 32, 32);
+  margin-top: 3vw;
+}
+
+#btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.body-3 {
+  height: 640px;
+  width: 100%;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.part-1 {
+  height: 15vw;
+  width: 100%;
+  position: relative;
+  /* background-color: rgb(137, 88, 23); */
+}
+
+#box-1 {
+  height: 11vw;
+  width: 20%;
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 4vw;
+  padding: 2vw;
+  letter-spacing: 1px;
+  /* background-color: darksalmon;  */
+}
+
+#box-1 h6 {
+  position: absolute;
+  left: 4%;
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 550;
+  padding-top: 3vw;
+}
+
+.part-2 {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  /* background-color: rgb(25, 188, 91); */
+}
+
+.Under {
+  height: 14vw;
+  width: 80%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 48px;
+}
+
+.services {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 35px 0;
+  display: flex;
+  flex-wrap: auto;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid #313131;
+
+  height: 15rem;
+}
+
+.m-box p {
+  color: #cac6c6;
+  line-height: 21px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.m-box {
+  gap: 20px;
+}
+
+.m-box h5 {
+  margin: 0px;
+  font-weight: 600;
+}
+
+.body-4 {
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  /* background-color: rgb(6, 91, 91); */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+  width: 100%;
+}
+
+.box-main-1 {
+  /* height: 75vh;
+    width: 40%; */
+  background-image: url(https://static.wixstatic.com/media/45742a76acf945fca7184c87d3241f9e.jpg/v1/fill/w_640,h_850,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/45742a76acf945fca7184c87d3241f9e.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+}
+
+.box-main-2 {
+  /* background-image: url(data:image/jpeg;base64,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); */
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBR__aXY2msBZXj1MTWGfGc-c68_BdQpTCWHxxColk1pXGpDBez3EcTkckYdrOJmMlz5s&usqp=CAU); */
+  background-image: url(https://f4.bcbits.com/img/a0497879207_65);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+}
+
+.box-main-3 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-neHWDUiMJk8imcfPdyX9iXTantrMTo2BO4CaH2swtaWpSHnzso2Etol3OhSKbNnrViI&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+}
+
+.overlay-2 {
+  height: 90vh;
+  width: 100%;
+  background-color: rgba(20, 19, 19, 0.543);
+  position: absolutergba(61, 50, 44, 0.543);
+}
+
+h4 {
+  margin: 20px;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 550;
+  letter-spacing: 1.7px;
+  line-height: -2vh;
+}
+
+.body-5 {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.upper {
+  height: 12vw;
+  width: 100%;
+  position: relative;
+  /* position: absolute;
+    left: 15%;
+    top: 10%; */
+  /* display: flex;
+    align-items: center;
+    justify-items: end; */
+  /* background-color: aqua; */
+}
+
+.b-1 {
+  position: absolute;
+  padding: 18px;
+  left: 13%;
+  top: 22%;
+}
+
+.b-1 h6 {
+  position: absolute;
+  right: 84%;
+  font-weight: 200;
+}
+
+.b-1 h2 {
+  letter-spacing: 0.6px;
+}
+
+.middle {
+  height: 28vw;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.m1 {
+  height: 100%;
+  width: 80%;
+  padding: 1vw;
+  /* background-color: plum; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.i {
+  height: 100%;
+  width: 30%;
+  /* background-color: slateblue; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.m1-1 {
+  background-image: url(https://haysmacintyre.com/wp-content/uploads/2021/08/christian-wiediger-LoG7zLmSHX8-unsplash-2.jpg);
+}
+
+.m1-2 {
+  background-image: url(https://static.wixstatic.com/media/nsplsh_504f7963644b5045384b51~mv2_d_4589_3064_s_4_2.jpg/v1/crop/x_527,y_0,w_3535,h_3064/fill/w_566,h_440,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Oliur.jpg);
+}
+
+.m1-3 {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/621343156e58dc6126f42ed4/1646031628313-OZF3Z25PLOJJJ0NTUV0R/unsplash-image-VviFtDJakYk.jpg);
+}
+
+.m2 {
+  height: 90%;
+  width: 80%;
+
+  /* background-color: plum; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.lower {
+  height: 18vw;
+  width: 100%;
+  background-color: white;
+}
+
+#btn-01 {
+  border: none;
+  color: rgb(39, 31, 31);
+  padding: 8px 18px;
+  font-weight: 550;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid rgb(26, 22, 22);
+  margin-left: 42vw;
+  margin-top: 1vw;
+}
+
+#btn-01:hover {
+  background-color: rgb(21, 20, 20);
+  color: white;
+}
+
+.body-6 {
+  height: 75%;
+  width: 100%;
+  /* background-image: url(https://www.hreafta.com/storage/other_pages/LhBOI4DxMvwWtKU2iQ8cOPXmpSrYdl1601A2Sg0i.jpeg); */
+  background-image: url(https://orlye.com/wp-content/uploads/2016/11/profile-header-new.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: relative; */
+  align-items: center;
+  position: relative;
+}
+
+.overlay-4 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(39, 27, 27, 0.543);
+  position: absolute;
+}
+
+.content h2 {
+  top: 15%;
+  left: 34%;
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 540;
+  letter-spacing: 1.4px;
+}
+
+.content p {
+  position: absolute;
+  top: 28%;
+  left: 29%;
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(242, 244, 244);
+}
+
+#bttnn {
+  top: 53%;
+  left: 42%;
+  position: absolute;
+  border: none;
+  color: rgb(242, 244, 244);
+  padding: 11px 26px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid rgb(250, 248, 248);
+}
+
+#bttnn:hover {
+  background-color: rgb(30, 25, 25);
+  transition: 0.5s;
+}
+
+#low {
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  font-size: 25px;
+  font-family: cursive;
+  text-decoration: none;
+  color: rgb(203, 203, 203);
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* footer */
+
+.body-7 {
+  /* width: 100%; */
+  color: #b0b0b0;
+  height: 7%;
+  /* align-items: center;
+    justify-content: space-around; */
+
+  background-color: #313131;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+  position: inherit;
+}
+
+.footer-social {
+  font-size: 13px;
+  position: absolute;
+  right: 45%;
+  margin-top: 2.4%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: white;
+
+}
